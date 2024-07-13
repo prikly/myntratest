@@ -1,0 +1,4 @@
+package io.bidmachine.ads.networks.notsy;
+
+interface InternalNotsyInterstitialAdListener extends InternalNotsyAdLoadListener<InternalNotsyInterstitialAd>, InternalNotsyFullscreenAdPresentListener {
+}

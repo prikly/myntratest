@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.5.0 */
+final class zzaqg implements Runnable {
+    final /* synthetic */ zzaqj zza;
+
+    zzaqg(zzaqj zzaqj) {
+        this.zza = zzaqj;
+    }
+
+    public final void run() {
+        this.zza.zzv();
+    }
+}

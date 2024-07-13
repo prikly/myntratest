@@ -1,0 +1,11 @@
+package io.bidmachine.ads.networks.amazon;
+
+public final class BuildConfig {
+    public static final int ADAPTER_MIN_DEVICE_API_VERSION = 19;
+    public static final String ADAPTER_NAME = "amazon";
+    public static final String ADAPTER_SDK_VERSION_NAME = "9.5.4";
+    public static final String ADAPTER_VERSION_NAME = "2.1.5.7";
+    public static final String BUILD_TYPE = "release";
+    public static final boolean DEBUG = false;
+    public static final String LIBRARY_PACKAGE_NAME = "io.bidmachine.ads.networks.amazon";
+}

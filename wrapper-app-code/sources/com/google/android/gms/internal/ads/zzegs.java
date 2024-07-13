@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.5.0 */
+public final /* synthetic */ class zzegs implements Runnable {
+    public final /* synthetic */ zzegt zza;
+
+    public /* synthetic */ zzegs(zzegt zzegt) {
+        this.zza = zzegt;
+    }
+
+    public final void run() {
+        this.zza.zzc();
+    }
+}

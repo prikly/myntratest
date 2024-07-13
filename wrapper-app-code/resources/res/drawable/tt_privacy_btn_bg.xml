@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:pangle="http://schemas.android.com/apk/com.bytedance.sdk.component" android:shape="rectangle">
+    <gradient android:startColor="#ff73cbfc" android:endColor="#ff3f9cf7" android:angle="0" android:type="linear"/>
+    <corners android:radius="22dp"/>
+    <size android:height="43dp" android:width="258dp"/>
+</shape>

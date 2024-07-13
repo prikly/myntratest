@@ -1,0 +1,139 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px 10px;
+    font-family: sans-serif;
+    font-size: x-large;
+    background-image: linear-gradient(to right, #7b81ec, #3bd1d3);
+}
+.top{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    }
+
+.top img{
+        width: 300px;
+        height: 300px;
+        box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.colour{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 50px
+}
+.colour-pallet{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    width: 50%;
+}
+.colour-pallet>div{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid;
+    opacity: 80%;
+}
+#pallet1{
+    background-color: red;
+}
+#pallet2{
+    background-color: blue;
+}
+#pallet3{
+    background-color: green;
+}
+#color-text{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.navigation{
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    margin: 0px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.navigation>div{
+    width: 50%;
+}
+.navigation img{
+    padding-top: 5px;
+    width: 20%;
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom:50px ;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.size-range{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    width: 50%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    gap: 10px;
+}
+.size-range>div{
+    display: flex;
+    font-family: sans-serif;
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+#size-text{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.foot{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    z-index: 999;
+}
+.foot>div img{
+    height: 40px;
+    width: 40px;
+}
+.foot>div img:hover{
+    opacity: 50%;
+    background-color: grey;
+    border-radius: 20px;
+}

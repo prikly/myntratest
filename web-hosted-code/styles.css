@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+.linking{
+text-decoration: none;
+color: inherit;
+
+}
+@media(min-width:400px){
+    .selection img{
+        padding-left: 10px;
+        height: 50%;
+        width: 50%;
+    }
+    .selection>div{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(64, 66, 66, 0.097);
+        height: 200px;
+        margin: 10px;
+        width: 80%;
+        border-radius: 10px 10px 10px 10px;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+}
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    z-index: 999;
+}
+.header img{
+    height: 30px;
+}
+.image{
+    width: 20%;
+}
+.search{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(177, 186, 187);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.search img{
+    height: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.icons img{
+    height: 40px;
+}
+.foot{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    z-index: 999;
+}
+.foot>div img{
+    height: 40px;
+    width: 40px;
+}
+.foot>div img:hover{
+    opacity: 50%;
+    background-color: grey;
+    border-radius: 20px;
+}
+.promo{
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    margin-bottom: 10px\;
+}
+.promo>img{
+    width: 100%;
+    filter: drop-shadow(10px 10px 10px);
+}
+.selection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    place-items: center;
+    padding-bottom: 49.8px;
+    padding-top: 10px;
+}
+.selection>div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(64, 66, 66, 0.097);
+    height: 200px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+
+}
+.selection img{
+    height: 70%;
+    width: 70%;
+}
+.titles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    padding: 0;
+}
+#price{
+    display: flex;
+    justify-content: start;
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: large;
+    padding-left: 10px;
+    width: 100%;
+    height: auto;
+}
